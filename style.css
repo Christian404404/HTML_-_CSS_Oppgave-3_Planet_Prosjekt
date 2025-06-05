@@ -71,7 +71,28 @@ p {
 li {
   font-family: var(--list-font);
 }
-# span {
-  font-weight: 700;
-  color: #ebbd82ef;
+#observation {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-around;
+}
+#observation h2 {
+  display: flex;
+  justify-content: center;
+}
+.observe-box {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 100px; */
+}
+.observe-article-box {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  width: 50%;
+}
+span {
+  font-weight: 600;
+  font-style: italic;
 }
