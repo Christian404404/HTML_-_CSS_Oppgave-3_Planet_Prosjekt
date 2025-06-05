@@ -55,6 +55,8 @@ h1 {
   font-size: var(--h1-font-size);
   display: flex;
   width: 80%;
+  height: 150px;
+  align-items: flex-end;
 }
 
 h2 {
@@ -75,28 +77,28 @@ li {
   font-family: var(--list-font);
 }
 #hero {
-  background-image: url(./img/Hero/cassini_saturn_scaledDown.jpg);
+  background-image: url(./img/Hero/cassini_saturn_1640-1130.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1640px 1130px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+/* background-size: 1640px 1130px; */
 .p-hero-container {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   gap: 40px;
   margin: 0 10% 0 10%;
-  height: 120px;
+  height: 150px;
   align-items: flex-start;
-  margin-top: 230px;
+  /* margin-top: 230px; */
   justify-content: center;
 }
 .p-hero {
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(0, 0, 0);
   width: 45%;
   text-align: left;
   line-height: 1.2;
