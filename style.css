@@ -1,3 +1,73 @@
-/*
-    
-*/
+/* Typography:
+H1 - Orbitron - bold 
+H2 - Montserrat - semibold
+H3 - Poppins - medium
+p - Space Mono - regular
+else - Space Mono - regular */
+
+/* Color Scheme: 
+background-color: #353230
+font-color-primary: #FAF9F6 
+font-color-secondary: EEB974ef */
+
+/* Sizes:
+img - max 500px, min 200px 
+hero-img -? 
+fonts - ? */
+
+/* header, nav, main, h1, .p-hero, section, #hero, #rings, #moons, #structure, #atmosphere, #observation, h2, article, h3, p, img, footer, ul, li, .photo-gallery */
+
+:root {
+  --h1-font: "Orbitron", sans-serif;
+  --h2-font: "Montserrat", sans-serif;
+  --h3-font: "Poppins", sans-serif;
+  --p-font: "Space Mono", monospace;
+  --button-font: "Space Mono", monospace;
+  --hyperlink-font: "Space Mono", monospace;
+  --list-font: "Space Mono", monospace;
+  --bgcolor: #353230;
+  --font-color-primary: #faf9f6;
+  --font-color-secondary: #eeb974ef;
+  --h1-font-size: 60px;
+  --h2-font-size: 45px;
+  --h3-font-size: 30px;
+  --p-font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bgcolor);
+  color: var(--font-color-primary);
+}
+/* section {
+  min-width: 100%;
+  min-height: 100svh;
+} */
+h1 {
+  font-family: var(--h1-font);
+  color: var(--font-color-secondary);
+  font-size: var(--h1-font-size);
+}
+h2 {
+  font-family: var(--h2-font);
+  font-size: var(--h2-font-size);
+  font-weight: 610;
+}
+h3 {
+  font-family: var(--h3-font);
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+p {
+  font-family: var(--p-font);
+  font-size: var(--p-font-size);
+}
+li {
+  font-family: var(--list-font);
+}
