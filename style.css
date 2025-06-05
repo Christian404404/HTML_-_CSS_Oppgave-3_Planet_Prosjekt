@@ -71,3 +71,7 @@ p {
 li {
   font-family: var(--list-font);
 }
+# span {
+  font-weight: 700;
+  color: #ebbd82ef;
+}
