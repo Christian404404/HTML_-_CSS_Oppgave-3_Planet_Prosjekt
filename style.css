@@ -45,15 +45,18 @@ body {
   background-color: var(--bgcolor);
   color: var(--font-color-primary);
 }
-/* section {
+section {
   min-width: 100%;
   min-height: 100svh;
-} */
+}
 h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
   font-size: var(--h1-font-size);
+  display: flex;
+  width: 80%;
 }
+
 h2 {
   font-family: var(--h2-font);
   font-size: var(--h2-font-size);
@@ -70,4 +73,30 @@ p {
 }
 li {
   font-family: var(--list-font);
+}
+#hero {
+  background-image: url(./images/Hero\ img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.p-hero-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  gap: 40px;
+  margin: 0 10% 0 10%;
+  height: 120px;
+  align-items: flex-start;
+  margin-top: 230px;
+  justify-content: center;
+}
+.p-hero {
+  background-color: rgb(3, 3, 3);
+  width: 45%;
+  text-align: left;
+  line-height: 1.2;
 }
