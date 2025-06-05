@@ -46,7 +46,7 @@ body {
   color: var(--font-color-primary);
 }
 section {
-  min-width: 100%;
+  min-width: 100svw;
   min-height: 100svh;
 }
 h1 {
@@ -75,9 +75,10 @@ li {
   font-family: var(--list-font);
 }
 #hero {
-  background-image: url(./images/Hero\ img.png);
+  background-image: url(./img/Hero/cassini_saturn_scaledDown.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 1640px 1130px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
