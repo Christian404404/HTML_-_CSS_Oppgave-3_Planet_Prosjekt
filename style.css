@@ -91,20 +91,38 @@ li {
   display: flex;
   flex-direction: column;
   height: 700px;
+  width: 700px;
+  justify-content: space-around;
+  align-items: center;
 }
 .observe-box img {
   height: 315px;
   width: 560px;
+  border-radius: 5px;
+  box-shadow: 15px 15px rgba(16, 16, 16, 0.715);
+}
+iframe {
+  border-radius: 5px;
+  box-shadow: 15px 15px rgba(16, 16, 16, 0.715);
 }
 .observe-article-box {
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: end;
+  justify-content: space-around;
   text-align: end;
+  line-height: 1.4;
+  margin-right: 4%;
 }
 .observe-article {
-  width: 400px;
+  width: 550px;
+}
+hr {
+  width: 600px;
+}
+.explore-article {
+  width: 600px;
 }
 span {
   font-weight: 600;
