@@ -74,23 +74,23 @@ li {
 #observation {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: 900px;
   justify-content: space-around;
+  /* align-items: center; */
 }
 #observation h2 {
   display: flex;
   justify-content: center;
-  text-shadow: -8px -8px 5px black;
-  height: auto;
+  /* text-shadow: -8px -8px 5px black; */
 }
 .observe-box {
   display: flex;
   justify-content: space-around;
-  /* gap: 100px; */
 }
 .observe-media-box {
   display: flex;
   flex-direction: column;
+  height: 700px;
 }
 .observe-box img {
   height: 315px;
@@ -99,8 +99,12 @@ li {
 .observe-article-box {
   display: flex;
   flex-direction: column;
-  text-align: end;
   width: 50%;
+  align-items: end;
+  text-align: end;
+}
+.observe-article {
+  width: 400px;
 }
 span {
   font-weight: 600;
