@@ -80,11 +80,21 @@ li {
 #observation h2 {
   display: flex;
   justify-content: center;
+  text-shadow: -8px -8px 5px black;
+  height: auto;
 }
 .observe-box {
   display: flex;
   justify-content: space-around;
   /* gap: 100px; */
+}
+.observe-media-box {
+  display: flex;
+  flex-direction: column;
+}
+.observe-box img {
+  height: 315px;
+  width: 560px;
 }
 .observe-article-box {
   display: flex;
