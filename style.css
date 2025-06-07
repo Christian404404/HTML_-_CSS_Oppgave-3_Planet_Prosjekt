@@ -71,3 +71,32 @@ p {
 li {
   font-family: var(--list-font);
 }
+/* #moons {
+} */
+#moons article {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#moons-layout-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 103px;
+}
+#moon-articles-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 103px;
+  justify-content: space-between;
+}
+#tethys,
+#enchilada {
+  contain: content;
+  width: auto;
+  height: 281px;
+  object-fit: contain;
+}
