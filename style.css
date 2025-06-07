@@ -71,3 +71,19 @@ p {
 li {
   font-family: var(--list-font);
 }
+.photo-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+.photo-gallery img {
+  width: 50px;
+  height: 25px;
+  object-fit: cover;
+}
+.photo-gallery img:hover {
+  width: 100px;
+  height: 50px;
+  align-items: center;
+}
