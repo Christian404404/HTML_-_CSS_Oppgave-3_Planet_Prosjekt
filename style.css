@@ -81,9 +81,11 @@ li {
   width: 50px;
   height: 25px;
   object-fit: cover;
+  transition: transform 0.5s ease, border 0.5s ease;
+  transform-origin: center;
+  border: 0px solid transparent;
 }
 .photo-gallery img:hover {
-  width: 100px;
-  height: 50px;
-  align-items: center;
+  transform: scale(1.5);
+  border: 4px var(--font-color-secondary);
 }
