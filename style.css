@@ -86,6 +86,6 @@ li {
   border: 0px solid transparent;
 }
 .photo-gallery img:hover {
-  transform: scale(1.5);
-  border: 4px var(--font-color-secondary);
+  transform: scale(2);
+  border: 1px solid var(--font-color-secondary);
 }
