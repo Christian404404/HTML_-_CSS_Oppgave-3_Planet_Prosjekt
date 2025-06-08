@@ -95,7 +95,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 90%;
-  gap: 40px;
+  gap: 60px;
   margin: 0 10% 0 10%;
   height: 150px;
   align-items: flex-start;
@@ -107,4 +107,33 @@ li {
   text-align: left;
   line-height: 1.2;
   text-shadow: -5px 5px 10px rgb(0, 0, 0);
+}
+/* btn to text */
+.btn {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-family: var(--h1-font);
+  color: var(--font-color-primary);
+  font-size: 22px;
+  -webkit-text-stroke: #e3e2df;
+  -webkit-text-stroke-width: 0.7px;
+  text-shadow: -10px 10px 20px black;
+}
+.cta p {
+  /* margin-left: 10px; */
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  font-family: var(--h1-font);
+  color: var(--font-color-primary);
+}
+.cta:hover p {
+  width: auto;
+}
+.cta span {
+  color: var(--font-color-secondary);
+  font-size: 20px;
+  -webkit-text-stroke: #eda649ef;
+  -webkit-text-stroke-width: 0.5px;
 }
