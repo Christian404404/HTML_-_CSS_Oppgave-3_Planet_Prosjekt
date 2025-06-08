@@ -73,16 +73,17 @@ li {
 }
 /* #moons {
 } */
-#moons article {
-  flex: 1 1 50%;
+
+/* #moons article {
   box-sizing: border-box;
-  padding: 10px;
+  width: 500px;
+  height: auto;
+  padding: 5px;
 }
 #moons-layout-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   gap: 103px;
 }
 #moon-articles-row {
@@ -90,13 +91,30 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 103px;
   justify-content: space-between;
+  gap: 103px;
+} */
+#moons-layout-row {
+  display: flex;
 }
-#tethys,
+#moons article {
+  width: 500px;
+  height: auto;
+}
+#moon-articles-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #enchilada {
-  contain: content;
-  width: auto;
+  width: 500px;
   height: 281px;
   object-fit: contain;
+  border-radius: 15px;
+}
+#tethys {
+  width: 500px;
+  height: 281px;
+  object-fit: contain;
+  border-radius: 15px;
 }
