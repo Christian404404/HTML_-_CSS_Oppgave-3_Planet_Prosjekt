@@ -82,8 +82,8 @@ nav {
 }
 .dropdown {
   position: relative;
-  display: inline-block;
-  justify-content: flex-end;
+  display: block;
+  float: right;
 }
 .dropdown-content {
   display: none;
