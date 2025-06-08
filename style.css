@@ -45,10 +45,10 @@ body {
   background-color: var(--bgcolor);
   color: var(--font-color-primary);
 }
-section {
+/* section {
   min-width: 100svw;
   min-height: 100svh;
-}
+} */
 h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
@@ -80,6 +80,8 @@ li {
   font-family: var(--list-font);
 }
 #hero {
+  min-width: 100svw;
+  min-height: 100svh;
   background-image: url(./img/Hero/cassini_saturn_1640-1130.jpg);
   background-repeat: no-repeat;
   background-position: center;
