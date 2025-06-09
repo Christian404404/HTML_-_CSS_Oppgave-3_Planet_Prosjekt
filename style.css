@@ -55,11 +55,11 @@ h1 {
   font-size: var(--h1-font-size);
   display: flex;
   width: 80%;
-  height: 140px;
+  height: 250px;
   align-items: flex-end;
-  -webkit-text-stroke: #eda649ef;
-  -webkit-text-stroke-width: 0.5px;
-  text-shadow: -10px 10px 20px black;
+  -webkit-text-stroke: #e4a758;
+  -webkit-text-stroke-width: 0.7px;
+  text-shadow: -8px 20px 13px black;
 }
 
 h2 {
@@ -80,43 +80,43 @@ li {
   font-family: var(--list-font);
 }
 #hero {
-  min-width: 100svw;
+  background-color: black;
+  min-width: 100%;
+  /* max-width: 1440px; */
   min-height: 100svh;
   background-image: url(./img/Hero/cassini_saturn_1640-1130.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+/* background-size: 1640px 1130px; */
+.hero-container {
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-/* background-size: 1640px 1130px; */
 .p-hero-container {
   display: flex;
   flex-direction: row;
   width: 90%;
   gap: 60px;
-  margin: 0 10% 0 10%;
+  /* margin: 0 10% 0 10%; */
   height: 150px;
   align-items: flex-start;
   /* margin-top: 230px; */
   justify-content: center;
 }
-.p-hero {
-  width: 45%;
-  text-align: left;
-  line-height: 1.2;
-  text-shadow: -5px 5px 10px rgb(0, 0, 0);
-}
 /* btn to text */
-.btn {
+.hero-btn {
   width: auto;
   height: auto;
   text-decoration: none;
   font-family: var(--h1-font);
   color: var(--font-color-primary);
   font-size: 22px;
-  -webkit-text-stroke: #e3e2df;
+  -webkit-text-stroke: #black;
   -webkit-text-stroke-width: 0.7px;
   text-shadow: -10px 10px 20px black;
 }
@@ -136,4 +136,8 @@ li {
   font-size: 20px;
   -webkit-text-stroke: #eda649ef;
   -webkit-text-stroke-width: 0.5px;
+  transition: 0.3s ease;
+}
+.cta span:hover {
+  font-size: 24px;
 }
