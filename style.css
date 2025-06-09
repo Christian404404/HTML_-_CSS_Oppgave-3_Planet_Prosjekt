@@ -71,3 +71,10 @@ p {
 li {
   font-family: var(--list-font);
 }
+.rings-img {
+  float: right;
+  height: 300px;
+}
+.rings {
+  color: var(--font-color-secondary);
+}
