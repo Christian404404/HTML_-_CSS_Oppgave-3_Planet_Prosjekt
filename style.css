@@ -71,3 +71,22 @@ p {
 li {
   font-family: var(--list-font);
 }
+#atmosphere {
+  background-color: black;
+  width: 100%;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.div-border {
+  background-color: var(--bgcolor);
+  border: solid var(--font-color-primary);
+  border-radius: 20px;
+  margin: 0% 5%;
+}
+#atmosphere h2 {
+  font-family: var(--h1-font);
+  -webkit-text-stroke: gray;
+  -webkit-text-stroke-width: 0.3px;
+  text-shadow: -2px 5px 10px black;
+}
