@@ -79,6 +79,13 @@ p {
 li {
   font-family: var(--list-font);
 }
+.rings-img {
+  float: right;
+  height: 300px;
+}
+.rings {
+  color: var(--font-color-secondary);
+}
 #atmosphere {
   background-color: black;
   width: 100%;
