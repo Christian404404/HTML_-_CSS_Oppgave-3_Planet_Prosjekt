@@ -79,6 +79,70 @@ p {
 li {
   font-family: var(--list-font);
 }
+#atmosphere {
+  background-color: black;
+  width: 100%;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+}
+.div-border {
+  background-color: var(--bgcolor);
+  border: solid var(--font-color-primary);
+  border-radius: 20px;
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+}
+#atmosphere h2 {
+  font-family: var(--h1-font);
+  -webkit-text-stroke: gray;
+  -webkit-text-stroke-width: 0.3px;
+  text-shadow: -2px 5px 10px black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  position: relative;
+  height: 70px;
+  top: 24px;
+  right: 100px;
+}
+#atmosphere h3 {
+  font-family: var(--h2-font);
+  text-shadow: -2px 3px 3px black;
+}
+.magnetosphere-box {
+  display: flex;
+  margin: 5% 5% 2%;
+  gap: 20px;
+}
+.atmosphere-box {
+  display: flex;
+  margin: 2% 5% 5%;
+  gap: 20px;
+}
+.magnetosphere-img {
+  width: 50%;
+  height: auto;
+  border-top-right-radius: 20px;
+}
+.atmosphere-img {
+  width: 25%;
+  height: auto;
+  border-bottom-left-radius: 20px;
+}
+.magnetosphere-article {
+  text-align: justify;
+  line-height: 1.2;
+}
+.magnetosphere-article h3 {
+  text-align: right;
+}
+.atmosphere-article {
+  text-align: justify;
+  line-height: 1.2;
+}
 #hero {
   background-color: black;
   min-width: 100%;
