@@ -56,7 +56,7 @@ section {
   /* min-width: 100svw;
   min-height: 100svh; */
 }
-/* FONT PROPERTY */
+/* FONT PROPERTY -------------------------------------------------------------*/
 h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
@@ -93,12 +93,13 @@ p {
 li {
   font-family: var(--list-font);
 }
-/* DIV BORDER */
+/* DIV BORDER -------------------------------------------------------------*/
 .div-border {
   background-color: var(--bgcolor);
   border: solid var(--font-color-primary);
   border-radius: 20px;
 }
+/* PHOTO GALLERY DIV -------------------------------------------------------------*/
 .photo-gallery {
   display: flex;
   flex-direction: row;
@@ -117,6 +118,7 @@ li {
   transform: scale(2);
   border: 1px solid var(--font-color-secondary);
 }
+/* HEADER SECTION -------------------------------------------------------------*/
 nav {
   overflow: hidden;
 }
@@ -150,6 +152,7 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* MOONS SECTION -------------------------------------------------------------*/
 #moons-layout-row {
   display: flex;
   justify-content: space-evenly;
@@ -179,6 +182,7 @@ nav {
   object-fit: contain;
   border-radius: 15px;
 } */
+/* FOOTER SECTION -------------------------------------------------------------*/
 footer {
   background-color: var(--bg-color-2);
 }
@@ -256,6 +260,7 @@ footer {
     margin: 5px;
   }
 }
+/* RINGS SECTION -------------------------------------------------------------*/
 .rings-img {
   float: right;
   height: 300px;
@@ -263,6 +268,7 @@ footer {
 .rings {
   color: var(--font-color-secondary);
 }
+/* ATMOSPHERE SECTION -------------------------------------------------------------*/
 #atmosphere {
   background-color: black;
   width: 100%;
@@ -316,6 +322,7 @@ footer {
   text-align: justify;
   line-height: 1.2;
 }
+/* HERO SECTION -------------------------------------------------------------*/
 #hero {
   background-color: black;
   min-width: 100%;
@@ -378,6 +385,7 @@ footer {
 .cta span:hover {
   font-size: 24px;
 }
+/* OBSERVATION SECTION -------------------------------------------------------------*/
 #observation {
   background-color: black;
   /* height: auto; */
@@ -448,6 +456,7 @@ iframe {
     align-items: start;
   }
 }
+/* STRUCTURE SECTION -------------------------------------------------------------*/
 #structure {
   background-color: black;
   width: 100%;
@@ -509,6 +518,7 @@ iframe {
     min-width: 255px;
   }
 }
+/* MOONS SECTION -------------------------------------------------------------*/
 #moons {
 }
 #moons-layout-row {
