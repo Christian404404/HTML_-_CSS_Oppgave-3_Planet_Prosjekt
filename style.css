@@ -99,6 +99,36 @@ li {
   border: solid var(--font-color-primary);
   border-radius: 20px;
 }
+/* MEDIA CALLS (screen responsiveness) -------------------------------------------------------------*/
+/* footer section */
+@media (max-width: 700px) {
+  .footer-nav ul {
+    flex-direction: column;
+  }
+  .footer-nav li {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+  }
+}
+/* observation section */
+@media (max-width: 700px) {
+  .div-border {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+/* structure section */
+@media (max-width: 700px) {
+  .structure-container-text {
+    flex-direction: column;
+    /* flex-shrink: 0.5; */
+    align-items: center;
+  }
+  .structure-article {
+    min-width: 255px;
+  }
+}
 /* PHOTO GALLERY DIV -------------------------------------------------------------*/
 .photo-gallery {
   display: flex;
@@ -248,17 +278,6 @@ footer {
 }
 .footer-bottom p {
   font-size: 12px;
-}
-/* responsive footer */
-@media (max-width: 700px) {
-  .footer-nav ul {
-    flex-direction: column;
-  }
-  .footer-nav li {
-    width: 100%;
-    text-align: center;
-    margin: 5px;
-  }
 }
 /* RINGS SECTION -------------------------------------------------------------*/
 .rings-img {
@@ -450,12 +469,6 @@ iframe {
   text-align: left;
   gap: 10px;
 }
-@media (max-width: 700px) {
-  .div-border {
-    flex-direction: column;
-    align-items: start;
-  }
-}
 /* STRUCTURE SECTION -------------------------------------------------------------*/
 #structure {
   background-color: black;
@@ -506,17 +519,6 @@ iframe {
   border-bottom-right-radius: 15px;
   /* box-shadow: 0px 10px 15px -8px #eeb974ef; */
   box-shadow: 0px 2px #a99d6d;
-}
-/* responsive article texts */
-@media (max-width: 700px) {
-  .structure-container-text {
-    flex-direction: column;
-    /* flex-shrink: 0.5; */
-    align-items: center;
-  }
-  .structure-article {
-    min-width: 255px;
-  }
 }
 /* MOONS SECTION -------------------------------------------------------------*/
 #moons {
