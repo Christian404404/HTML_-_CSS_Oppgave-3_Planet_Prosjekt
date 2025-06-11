@@ -61,10 +61,6 @@ h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
   font-size: var(--h1-font-size);
-  display: flex;
-  width: 80%;
-  height: 300px;
-  align-items: flex-end;
   -webkit-text-stroke: #e4a758;
   -webkit-text-stroke-width: 0.7px;
   text-shadow: -8px 20px 13px black;
@@ -329,6 +325,12 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+#hero h1 {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  align-items: flex-end;
 }
 .p-hero-container {
   display: flex;
