@@ -46,14 +46,22 @@ body {
   color: var(--font-color-primary);
 }
 /* section {
-  min-width: 100%;
+  min-width: 100svw;
   min-height: 100svh;
 } */
 h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
   font-size: var(--h1-font-size);
+  display: flex;
+  width: 80%;
+  height: 300px;
+  align-items: flex-end;
+  -webkit-text-stroke: #e4a758;
+  -webkit-text-stroke-width: 0.7px;
+  text-shadow: -8px 20px 13px black;
 }
+
 h2 {
   font-family: var(--h2-font);
   font-size: var(--h2-font-size);
@@ -70,6 +78,68 @@ p {
 }
 li {
   font-family: var(--list-font);
+}
+#hero {
+  background-color: black;
+  min-width: 100%;
+  /* max-width: 1440px; */
+  min-height: 100svh;
+  background-image: url(./img/Hero/cassini_saturn_1640-1130.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* background-size: 1640px 1130px; */
+.hero-container {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.p-hero-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 60px;
+  /* margin: 0 10% 0 10%; */
+  height: 150px;
+  align-items: flex-start;
+  /* margin-top: 230px; */
+  justify-content: center;
+}
+/* btn to text */
+.hero-btn {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-family: var(--h1-font);
+  color: var(--font-color-primary);
+  font-size: 22px;
+  -webkit-text-stroke: #black;
+  -webkit-text-stroke-width: 0.7px;
+  text-shadow: -10px 10px 20px black;
+}
+.cta p {
+  /* margin-left: 10px; */
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  font-family: var(--h1-font);
+  color: var(--font-color-primary);
+}
+.cta:hover p {
+  width: auto;
+}
+.cta span {
+  color: var(--font-color-secondary);
+  font-size: 20px;
+  -webkit-text-stroke: #eda649ef;
+  -webkit-text-stroke-width: 0.5px;
+  transition: 0.3s ease;
+}
+.cta span:hover {
+  font-size: 24px;
 }
 #observation {
   background-color: black;
