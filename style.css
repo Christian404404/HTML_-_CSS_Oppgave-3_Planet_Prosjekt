@@ -182,36 +182,6 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* MOONS SECTION -------------------------------------------------------------*/
-#moons-layout-row {
-  display: flex;
-  justify-content: space-evenly;
-}
-#moons article {
-  width: 500px;
-  height: auto;
-}
-#moon-articles-row {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#enchilada,
-#tethys {
-  width: 500px;
-  height: 281px;
-  object-fit: contain;
-  border-radius: 15px;
-  background-color: black;
-}
-/* Enchilada an tethys got split for error handling */
-/* #tethys {
-  background-color: black;
-  width: 500px;
-  height: 281px;
-  object-fit: contain;
-  border-radius: 15px;
-} */
 /* FOOTER SECTION -------------------------------------------------------------*/
 footer {
   background-color: var(--bg-color-2);
@@ -521,8 +491,6 @@ iframe {
   box-shadow: 0px 2px #a99d6d;
 }
 /* MOONS SECTION -------------------------------------------------------------*/
-#moons {
-}
 #moons-layout-row {
   display: flex;
   justify-content: space-evenly;
@@ -535,7 +503,6 @@ iframe {
   display: flex;
   justify-content: space-evenly;
 }
-
 #enchilada,
 #tethys {
   width: 500px;
