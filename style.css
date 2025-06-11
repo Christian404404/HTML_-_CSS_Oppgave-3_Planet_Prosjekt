@@ -246,6 +246,9 @@ footer {
   font-size: 12px;
 }
 /* RINGS SECTION -------------------------------------------------------------*/
+.rings-border {
+  margin: 0% 5%;
+}
 .rings-img {
   float: right;
   height: 300px;
@@ -262,7 +265,7 @@ footer {
   flex-direction: column;
   min-height: 1000px;
 }
-.div-border atmosphere {
+.atmosphere {
   margin: 0% 5%;
   display: flex;
   flex-direction: column;
@@ -387,7 +390,7 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
-.div-border observation {
+.observation {
   margin: 0% 5% 4%;
   display: flex;
   min-height: 900px;
@@ -457,7 +460,7 @@ iframe {
   left: 24%;
   margin: 0 5%;
 }
-.div-border structure {
+.structure {
   margin: 0% 5%;
   display: flex;
   flex-direction: column;
@@ -493,6 +496,9 @@ iframe {
   box-shadow: 0px 2px #a99d6d;
 }
 /* MOONS SECTION -------------------------------------------------------------*/
+.moons {
+  margin: 0% 5%;
+}
 #moons-layout-row {
   display: flex;
   justify-content: space-evenly;
