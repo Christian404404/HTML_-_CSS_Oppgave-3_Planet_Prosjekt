@@ -319,10 +319,11 @@ footer {
   background-image: url(./img/Hero/cassini_saturn_1640-1130.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 /* background-size: 1640px 1130px; */
 .hero-container {
-  height: 1000px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -331,14 +332,14 @@ footer {
 }
 #hero h1 {
   display: flex;
+  align-items: flex-end;
   width: 80%;
   height: 300px;
-  align-items: flex-end;
 }
 .p-hero-container {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   gap: 60px;
   /* margin: 0 10% 0 10%; */
   height: 150px;
