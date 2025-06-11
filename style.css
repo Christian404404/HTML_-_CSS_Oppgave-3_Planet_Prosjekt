@@ -125,6 +125,13 @@ li {
     min-width: 255px;
   }
 }
+/* atmosphere section */
+@media (max-width: 700px) {
+  .magnetosphere-box,
+  .atmosphere-box {
+    flex-direction: column;
+  }
+}
 /* PHOTO GALLERY DIV -------------------------------------------------------------*/
 .photo-gallery {
   display: flex;
