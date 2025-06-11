@@ -51,10 +51,11 @@ body {
   background-color: var(--bgcolor);
   color: var(--font-color-primary);
 }
-/* section {
-  min-width: 100svw;
-  min-height: 100svh;
-} */
+section {
+  background-color: black;
+  /* min-width: 100svw;
+  min-height: 100svh; */
+}
 /* FONT PROPERTY */
 h1 {
   font-family: var(--h1-font);
