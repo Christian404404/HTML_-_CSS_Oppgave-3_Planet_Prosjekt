@@ -81,6 +81,8 @@ h3 {
   font-family: var(--h3-font);
   font-size: var(--h3-font-size);
   font-weight: 500;
+  text-shadow: -2px 3px 3px black;
+  color: var(--font-color-primary);
 }
 p {
   font-family: var(--p-font);
@@ -278,10 +280,6 @@ footer {
   top: 24px;
   right: 100px;
 }
-#atmosphere h3 {
-  font-family: var(--h2-font);
-  text-shadow: -2px 3px 3px black;
-}
 .magnetosphere-box {
   display: flex;
   margin: 5% 5% 2%;
@@ -401,10 +399,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-#observation h3 {
-  font-family: var(--h2-font);
-  text-shadow: -2px 3px 3px black;
-}
 .explore-article span {
   font-weight: 600;
   font-style: italic;
@@ -466,10 +460,6 @@ iframe {
   top: 24px;
   left: 24%;
   margin: 0 5%;
-}
-#structure h3 {
-  font-family: var(--h2-font);
-  text-shadow: -2px 3px 3px black;
 }
 .div-border {
   background-color: var(--bgcolor);
