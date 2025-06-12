@@ -106,9 +106,9 @@ li {
 }
 /* observation section */
 @media (max-width: 700px) {
-  .div-border {
+  .observation {
     flex-direction: column;
-    align-items: start;
+    align-items: center;
   }
 }
 /* structure section */
@@ -120,6 +120,45 @@ li {
   }
   .structure-article {
     min-width: 255px;
+  }
+}
+/* structure section p, h3 fade out scroll effect */
+@media (prefers-reduced-motion: no-preference) {
+  section p,
+  section h3 {
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -200px;
+  }
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
+  img {
+    animation: fade-in linear;
+    animation-timeline: view();
+  }
+  @keyframes fade-in {
+    from {
+      scale: 0.85;
+      opacity: 0;
+    }
+    to {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+}
+/* atmosphere section */
+@media (max-width: 700px) {
+  .magnetosphere-box,
+  .atmosphere-box {
+    flex-direction: column;
+  }
+  #atmosphere img {
+    width: 100%;
+    height: auto;
   }
 }
 /* Hero section fade out effect on H1 */
@@ -293,33 +332,35 @@ footer {
 .magnetosphere-box {
   display: flex;
   margin: 5% 5% 2%;
-  gap: 20px;
+  gap: 40px;
 }
 .atmosphere-box {
   display: flex;
   margin: 2% 5% 5%;
-  gap: 20px;
+  gap: 40px;
 }
 .magnetosphere-img {
   width: 50%;
   height: auto;
   border-top-right-radius: 20px;
+  box-shadow: -20px 0px 10px -10px #4a9292;
 }
 .atmosphere-img {
-  width: 25%;
+  width: 30%;
   height: auto;
   border-bottom-left-radius: 20px;
+  box-shadow: 20px 0px 10px -10px #86a5cd;
 }
 .magnetosphere-article {
   text-align: justify;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 .magnetosphere-article h3 {
   text-align: right;
 }
 .atmosphere-article {
   text-align: justify;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 /* HERO SECTION -------------------------------------------------------------*/
 #hero {
@@ -413,20 +454,17 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 /* OBSERVATION SECTION -------------------------------------------------------------*/
 #observation {
   background-color: black;
-  /* height: auto; */
-  /* min-height: 1000px; */
   width: 100%;
-  min-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .observation {
-  margin: 0% 5% 4%;
+  margin: 0% 5%;
   display: flex;
-  min-height: 900px;
+  /* min-height: 900px; */
   padding: 5%;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 #observation h2 {
   position: relative;
@@ -437,7 +475,7 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 .explore-article span {
   font-weight: 600;
   font-style: italic;
-  color: var(--bg-color-2);
+  color: #f0ad3a;
 }
 .explore-article span:hover {
   font-size: 18px;
@@ -446,27 +484,26 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 .media-box {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 50%;
+  /* align-items: flex-end; */
   /* height: 300px; */
-}
-iframe {
-  margin-top: 3%;
-  width: 180%;
-  height: 500px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  /* position: relative;
-  left: 688px;
-  bottom: 297px; */
+  /* box-shadow: 20px 0px 10px -8px #894b16; */
 }
 .potential-img {
-  border-top-left-radius: 10px;
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+.explore-img {
+  border-bottom-left-radius: 20px;
+  width: 100%;
+  /* height: auto; */
 }
 .text-box {
   display: flex;
   flex-direction: column;
   gap: 50px;
   line-height: 1.7;
+  width: 45%;
 }
 .observe-article,
 .explore-article {
@@ -510,7 +547,7 @@ iframe {
   display: flex;
   flex-direction: column;
   /* box-shadow: 0px 10px 15px -8px #eeb974ef; */
-  box-shadow: 0px 2px #a99d6d;
+  /* box-shadow: 0px 2px #a99d6d; */
   padding: 5px;
 }
 #structure p {
@@ -521,10 +558,10 @@ iframe {
   width: 96%;
   height: auto;
   /* height: 500px; */
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  /* box-shadow: 0px 10px 15px -8px #eeb974ef; */
-  box-shadow: 0px 2px #a99d6d;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px -20px 10px -10px #e6a100;
+  /* box-shadow: 0px 2px #a99d6d; */
 }
 /* MOONS SECTION -------------------------------------------------------------*/
 .moons {
