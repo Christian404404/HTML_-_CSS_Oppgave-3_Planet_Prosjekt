@@ -131,6 +131,10 @@ li {
   .atmosphere-box {
     flex-direction: column;
   }
+  #atmosphere img {
+    width: 100%;
+    height: auto;
+  }
 }
 /* PHOTO GALLERY DIV -------------------------------------------------------------*/
 .photo-gallery {
