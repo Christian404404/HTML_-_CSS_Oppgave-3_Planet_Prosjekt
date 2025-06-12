@@ -125,7 +125,7 @@ li {
     min-width: 255px;
   }
 }
-/* structure section p, h2 fade out scroll effect */
+/* structure section p, h3 fade out scroll effect */
 @media (prefers-reduced-motion: no-preference) {
   #structure p,
   #structure h3 {
@@ -136,6 +136,20 @@ li {
   @keyframes fade-out {
     to {
       opacity: 0;
+    }
+  }
+  #structure img {
+    animation: fade-in linear;
+    animation-timeline: view();
+  }
+  @keyframes fade-in {
+    from {
+      scale: 0.8;
+      opacity: 0;
+    }
+    to {
+      scale: 1;
+      opacity: 1;
     }
   }
 }
