@@ -131,8 +131,8 @@ li {
   flex-direction: row;
   gap: 75px;
   justify-content: center;
-  background-color: var(--bgcolor);
-  margin: 75px 0px;
+  background-color: black;
+  margin: 150px 0px;
 }
 .photo-gallery img {
   width: 150px;
