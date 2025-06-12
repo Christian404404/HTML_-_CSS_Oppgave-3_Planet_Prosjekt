@@ -51,6 +51,9 @@ body {
   background-color: var(--bgcolor);
   color: var(--font-color-primary);
 }
+main {
+  background-color: black;
+}
 section {
   background-color: black;
   /* min-width: 100svw;
