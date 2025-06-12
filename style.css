@@ -125,6 +125,20 @@ li {
     min-width: 255px;
   }
 }
+/* structure section p, h2 fade out scroll effect */
+@media (prefers-reduced-motion: no-preference) {
+  #structure p,
+  #structure h3 {
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -200px;
+  }
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
+}
 /* PHOTO GALLERY DIV -------------------------------------------------------------*/
 .photo-gallery {
   display: flex;
