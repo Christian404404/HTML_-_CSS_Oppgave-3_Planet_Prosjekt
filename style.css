@@ -400,7 +400,7 @@ footer {
   display: flex;
   min-height: 900px;
   padding: 5%;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 #observation h2 {
   position: relative;
@@ -411,7 +411,7 @@ footer {
 .explore-article span {
   font-weight: 600;
   font-style: italic;
-  color: var(--border-color-3);
+  color: #f0ad3a;
 }
 .explore-article span:hover {
   font-size: 18px;
@@ -422,6 +422,7 @@ footer {
   flex-direction: column;
   width: 55%;
   /* height: 300px; */
+  box-shadow: 20px 0px 10px -8px #894b16;
 }
 iframe {
   margin-top: 3%;
