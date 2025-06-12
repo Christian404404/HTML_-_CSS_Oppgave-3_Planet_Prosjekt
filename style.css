@@ -61,9 +61,6 @@ h1 {
   font-family: var(--h1-font);
   color: var(--font-color-secondary);
   font-size: var(--h1-font-size);
-  -webkit-text-stroke: var(--border-color-2);
-  -webkit-text-stroke-width: 0.7px;
-  text-shadow: -8px 20px 13px black;
 }
 
 h2 {
@@ -340,16 +337,20 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
   width: 80%;
   height: 350px;
   /* text-gradient */
-  /* text-shadow: none;
   color: transparent;
   background: linear-gradient(
     90deg,
     rgba(232, 162, 71, 1) 0%,
-    rgba(238, 185, 116, 1) 50%,
-    rgba(230, 238, 116, 1) 100%
+    rgba(238, 185, 116, 1) 25%,
+    rgba(230, 238, 116, 1) 60%
   );
   background-clip: text;
-  -webkit-background-clip: text; */
+  -webkit-background-clip: text;
+  -webkit-text-stroke: var(--border-color-3);
+
+  /* ;
+  -webkit-text-stroke-width: 0.7px;
+  text-shadow: -8px 20px 13px black; */
 }
 .p-hero-container {
   display: flex;
