@@ -105,7 +105,7 @@ li {
   }
 }
 /* observation section */
-@media (max-width: 700px) {
+@media (max-width: 700) {
   .observation {
     flex-direction: column;
     align-items: center;
@@ -135,7 +135,11 @@ li {
       opacity: 0;
     }
   }
-  img {
+  #structure img,
+  #rings img,
+  #moons img,
+  #atmosphere img,
+  #observation img {
     animation: fade-in linear;
     animation-timeline: view();
   }
@@ -462,7 +466,7 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 .observation {
   margin: 0% 5%;
   display: flex;
-  /* min-height: 900px; */
+  min-height: 900px;
   padding: 5%;
   column-gap: 40px;
 }
@@ -484,19 +488,19 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 .media-box {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 55%;
   /* align-items: flex-end; */
   /* height: 300px; */
-  /* box-shadow: 20px 0px 10px -8px #894b16; */
 }
 .potential-img {
   border-top-left-radius: 20px;
   width: 100%;
+  box-shadow: 20px 0px 10px -8px #894b16;
 }
 .explore-img {
   border-bottom-left-radius: 20px;
-  width: 100%;
-  /* height: auto; */
+  box-shadow: 20px 0px 10px -8px #894b16;
+  /* width: 100%; */
 }
 .text-box {
   display: flex;
