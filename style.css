@@ -51,6 +51,12 @@ body {
   background-color: var(--bgcolor);
   color: var(--font-color-primary);
 }
+header {
+  height: 125px;
+}
+nav {
+  padding-right: 50px;
+}
 main {
   background-color: black;
 }
@@ -92,6 +98,65 @@ p {
 li {
   font-family: var(--list-font);
 }
+/* DIV BORDER -------------------------------------------------------------*/
+.div-border {
+  background-color: var(--bgcolor);
+  border: solid;
+  border-radius: 20px;
+  border-color: var(--border-color-4);
+}
+/* MEDIA CALLS (screen responsiveness) -------------------------------------------------------------*/
+/* footer section */
+@media (max-width: 700px) {
+  .footer-nav ul {
+    flex-direction: column;
+  }
+  .footer-nav li {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+  }
+}
+/* observation section */
+@media (max-width: 700px) {
+  .div-border {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+/* structure section */
+@media (max-width: 700px) {
+  .structure-container-text {
+    flex-direction: column;
+    /* flex-shrink: 0.5; */
+    align-items: center;
+  }
+  .structure-article {
+    min-width: 255px;
+  }
+}
+/* PHOTO GALLERY DIV -------------------------------------------------------------*/
+.photo-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  justify-content: center;
+  background-color: black;
+  margin: 150px 0px;
+}
+.photo-gallery img {
+  width: 150px;
+  height: 125px;
+  object-fit: cover;
+  transition: transform 0.5s ease, border 0.5s ease;
+  transform-origin: center;
+  border: 0px solid transparent;
+}
+.photo-gallery img:hover {
+  transform: scale(2);
+  border: 1px solid var(--font-color-secondary);
+}
+/* HEADER SECTION -------------------------------------------------------------*/
 /* DIV BORDER -------------------------------------------------------------*/
 .div-border {
   background-color: var(--bgcolor);
@@ -165,7 +230,7 @@ nav {
   font-size: 15px;
 }
 .dropdown {
-  position: relative;
+  position: sticky;
   display: block;
   float: right;
 }
