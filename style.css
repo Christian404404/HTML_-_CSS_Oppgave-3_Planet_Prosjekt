@@ -74,12 +74,14 @@ li {
 .photo-gallery {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 75px;
   justify-content: center;
+  background-color: var(--bgcolor);
+  margin: 75px 0px;
 }
 .photo-gallery img {
-  width: 100px;
-  height: 75px;
+  width: 150px;
+  height: 125px;
   object-fit: cover;
   transition: transform 0.5s ease, border 0.5s ease;
   transform-origin: center;
