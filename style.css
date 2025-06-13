@@ -130,12 +130,14 @@ li {
     animation-timeline: view();
     animation-range: exit -200px;
   }
-  @keyframes fade-out {
-    to {
-      opacity: 0;
-    }
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
   }
-  #structure img,
+}
+/* image scroll effect */
+/* #structure img,
   #rings img,
   #moons img,
   #atmosphere img {
@@ -152,7 +154,7 @@ li {
       opacity: 1;
     }
   }
-}
+} */
 /* atmosphere section */
 @media (max-width: 700px) {
   .magnetosphere-box,
@@ -346,13 +348,13 @@ footer {
   width: 50%;
   height: auto;
   border-top-right-radius: 20px;
-  box-shadow: -20px 0px 10px -10px #4a9292;
+  box-shadow: -20px 0px 0px -10px #033335;
 }
 .atmosphere-img {
   width: 30%;
   height: auto;
   border-bottom-left-radius: 20px;
-  box-shadow: 20px 0px 10px -10px #86a5cd;
+  box-shadow: 20px 0px 0px -10px #313648;
 }
 .magnetosphere-article {
   text-align: justify;
@@ -563,18 +565,19 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
   /* height: 500px; */
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 0px -20px 10px -10px #e6a100;
+  box-shadow: 0px -20px 0px -10px #e6a100;
   /* box-shadow: 0px 2px #a99d6d; */
 }
 /* MOONS SECTION -------------------------------------------------------------*/
-.moons {
+/* .moons {
   margin: 0% 5%;
-}
+} */
 #moons h2 {
   display: flex;
   justify-content: center;
   position: relative;
   top: 24px;
+  width: 100%;
 }
 .moons {
   margin: 0% 5%;
@@ -587,21 +590,16 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 #moons-layout-row {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 3% 5%;
   gap: 40px;
 }
 #moons-layout-row p {
   text-align: center;
 }
-#moons article {
-  width: 500px;
-  height: auto;
-}
 #moon-articles-row {
   display: flex;
   margin: 0, 5%;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   gap: 40px;
   width: 100%;
 }
