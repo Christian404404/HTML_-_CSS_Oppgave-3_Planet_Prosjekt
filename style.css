@@ -303,13 +303,46 @@ footer {
 /* RINGS SECTION -------------------------------------------------------------*/
 .rings-border {
   margin: 0% 5%;
+  display: flex;
+  min-height: 900px;
+  padding: 5%;
+  column-gap: 40px;
 }
-.rings-img {
-  float: right;
-  height: 300px;
+.rings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
 }
-.rings {
-  color: var(--font-color-secondary);
+#rings h2 {
+  position: relative;
+  top: 25px;
+  display: flex;
+  justify-content: left;
+  left: 200px;
+}
+.left-ring-image {
+  width: 33%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* box-shadow: 20px 0px 0px -8px #951f03; */
+  box-shadow: 20px 0px 0px -8px #ed2201;
+}
+.right-ring-image {
+  width: 33%;
+  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: -20px 0px 0px -8px #040a48;
+}
+.rings-article-text {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  gap: 40px;
+}
+.rings-article-text p {
+  line-height: 1.7;
+  text-align: justify;
 }
 /* ATMOSPHERE SECTION -------------------------------------------------------------*/
 #atmosphere {
