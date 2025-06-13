@@ -511,7 +511,7 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
   justify-content: center;
 }
 .observation {
-  margin: 0% 5%;
+  margin: 0% 5% 5%;
   display: flex;
   min-height: 900px;
   padding: 5%;
@@ -542,11 +542,11 @@ background: linear-gradient(90deg,rgba(232, 162, 71, 1) 0%, rgba(238, 185, 116, 
 .potential-img {
   border-top-left-radius: 20px;
   width: 100%;
-  box-shadow: 20px 2px 10px -8px #894b16;
+  box-shadow: 20px 0px 0px -8px #894b16;
 }
 .explore-img {
   border-bottom-left-radius: 20px;
-  box-shadow: 20px 0px 10px -8px #894b16;
+  box-shadow: 20px 0px 0px -8px #894b16;
   /* width: 100%; */
 }
 .text-box {
